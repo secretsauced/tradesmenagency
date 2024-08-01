@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+header .company-name {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.hero {
+    background: url('https://example.com/your-background-image.jpg') no-repeat center center/cover; /* Replace this with the actual background image URL */
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.hero a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.hero a:hover {
+    background-color: #bdc3c7;
+}
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
